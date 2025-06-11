@@ -5,6 +5,7 @@ import FloatIcons from './FloatIcons'
 import BentoGrid from './BentoGrid'
 import CardComponent from './CardComponent'
 import Pricing from './Pricing'
+import Footer from './Footer'
 
 function Hero() {
   return (
@@ -65,6 +66,8 @@ function Hero() {
     <BentoGrid />
     <CardComponent />
     <Pricing />
+    <Footer />
+
     </div>
     
   )

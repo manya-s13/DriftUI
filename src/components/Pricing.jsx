@@ -38,7 +38,7 @@ function Pricing() {
             'GitHub & GitLab sync',
             'Design token management',
             'Brand kit creator',
-            'AI assistant to refactor or auto-style components',
+            'AI assistant to refactor',
             'AI workflow'
             ]
         }

@@ -2,9 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Code2, Sparkles, Settings2, Atom, } from 'lucide-react'
 import FloatIcons from './FloatIcons'
+import BentoGrid from './BentoGrid'
+import CardComponent from './CardComponent'
+import Pricing from './Pricing'
 
 function Hero() {
   return (
+    <div className='bg-black'>
     <div className='min-h-screen w-full bg-black relative flex items-center justify-center px-4'>
 
     <div className='absolute inset-0 z-0'
@@ -55,7 +59,14 @@ function Hero() {
 
     </div>
 
+    
+
     </div>
+    <BentoGrid />
+    <CardComponent />
+    <Pricing />
+    </div>
+    
   )
 }
 
